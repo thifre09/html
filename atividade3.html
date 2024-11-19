@@ -1,0 +1,30 @@
+<head>
+    <title>Exemplo de posicionamento relativo</title>
+    <style type="text/css">
+    h2.header_pos
+    
+    {
+    
+    position: relative;
+    top:-50px;
+    }
+    img.img_pos
+    {
+    position: relative;
+    bottom: 40px;
+    left: 120px;
+    }
+    </style>
+</head>
+<body>
+    <h2>Cabeçalho com posicionamento normal</h2>
+    <h2 class="header_pos">Cabeçalho movido -50 pixels
+    acima da sua posição normal</h2>
+    <p><img src="sam.jpg"
+    alt = "Imagem sem alterar posicionamento"></p>
+    <p><img class="img_pos" src = "sam.jpg"
+    alt = "Imagem com posicionamento alterado"></p>
+    <p><strong>OBS.:</strong> Mesmo que o elemento
+    posicionado de forma relativa seja movido, o espaço
+    reservado para ele é preservado.</p>
+    </body>
